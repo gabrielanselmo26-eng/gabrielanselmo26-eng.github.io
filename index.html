@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroVision AI</title>
+    <link rel="stylesheet" href="./CGestilo.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>🌱 AgroVision AI</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#problema">Problema</a></li>
+            <li><a href="#solucao">Solução</a></li>
+            <li><a href="#painel">Painel IA</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h2>Inteligência Artificial e Satélites Revolucionando a Agricultura</h2>
+
+        <p>
+            Utilizamos dados espaciais e IA para monitorar plantações,
+            prever riscos climáticos e aumentar a produtividade agrícola.
+        </p>
+
+        <button onclick="scrollToSection('solucao')">
+            Conheça a Solução
+        </button>
+    </div>
+</section>
+
+<section id="problema" class="section">
+    <h2>O Problema</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌦 Mudanças Climáticas</h3>
+            <p>
+                Eventos extremos afetam diretamente a produção agrícola.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🐛 Pragas</h3>
+            <p>
+                Muitas vezes o agricultor identifica o problema tarde demais.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💧 Irrigação Ineficiente</h3>
+            <p>
+                Desperdício de água e aumento dos custos de produção.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="solucao" class="section">
+    <h2>Nossa Solução</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🛰 Satélites</h3>
+            <p>
+                Capturam dados climáticos e imagens das lavouras.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🤖 Inteligência Artificial</h3>
+            <p>
+                Analisa dados em tempo real e identifica riscos.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📈 Agricultura Inteligente</h3>
+            <p>
+                Apoia a tomada de decisões para aumentar a produtividade.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="painel" class="section">
+    <h2>Painel Inteligente</h2>
+
+    <div class="painel">
+
+        <label>Selecione uma Região:</label>
+
+        <select id="regiao">
+            <option>Minas Gerais</option>
+            <option>São Paulo</option>
+            <option>Mato Grosso</option>
+            <option>Paraná</option>
+        </select>
+
+        <button onclick="analisarPlantacao()">
+            Analisar Plantação
+        </button>
+
+        <div id="resultado"></div>
+
+    </div>
+</section>
+
+<section id="contato" class="section">
+    <h2>Fale Conosco</h2>
+
+    <form id="formulario">
+
+        <input type="text" id="nome" placeholder="Nome">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="tel" id="telefone" placeholder="Telefone">
+
+        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>AgroVision AI © 2026 | Global Solution FIAP</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
